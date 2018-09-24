@@ -1,0 +1,33 @@
+/*Fake Google CSS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+ body {
+     font-family: Arial, sans-serif;
+ font-size: 13px;
+ }
+ #container {
+     width: 580px;
+     margin: 0 auto;
+     text-aligh: center;
+ }
+
+ h1#logo {
+    width:n269px;
+    height: 95px;
+    background: url("google.png") top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+ }
+ input[type ="text"]{
+    width:566px;
+    padding: 7px;
+    margin: 25px 0 18px;
+    border: solid 1px #ccc;
+    font-size: 16px;
+
+ }
+ input[type="text"]:hover {
+    color:#aaa; }
+
